@@ -1,17 +1,12 @@
 
-const a = /3/;
 for (let number = 1; number <= 100; number++) {
-
     if (number % 3 === 0) {
         console.log(number + "!");
-
     }
-    else  if(/3/.test(number.toString())){
+    else if (/3/.test(number.toString())) {
         console.log(number + "!");
-
-
     }
-    else{
+    else {
         console.log(number);
     }
 };
